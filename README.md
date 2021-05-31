@@ -22,3 +22,6 @@ This repository contains a grammar for the Chromos language for the Atom editor.
 - polished entity names
 
 ## Note :scroll:
+
+- *Chromos Grammar :rainbow: :scroll:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- Licensed under the MIT license.
