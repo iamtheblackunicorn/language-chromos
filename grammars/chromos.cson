@@ -1,0 +1,63 @@
+scopeName: 'source.chr'
+name: 'Chromos'
+fileTypes: [ 'chr' ]
+limitLineLength: false
+
+patterns: [
+  {
+    constant: 'Initiates the program.'
+    name: 'constant.language.chromos'
+    match: 'prog start'
+  },
+  {
+    variable: 'Initiates a computation.'
+    name: 'variable.language.chromos'
+    match: 'compute start'
+  },
+  {
+    variable: 'Initiates a message.'
+    name: 'variable.language.chromos'
+    match: 'message start'
+  },
+  {
+    keyword: 'Routes to an identifier.'
+    name: 'keyword.control.chromos'
+    match: '\\=\\>'
+  },
+  {
+    string: 'Is a block identifier.'
+    name: 'string.single.chromos'
+    match: "\\'[0-9]+\\'"
+  },
+  {
+    support: 'Holds data.'
+    name: 'support.class.chromos'
+    match: '[A-F0-9]+'
+  },
+  {
+    variable: 'Ends a message.'
+    name: 'variable.language.chromos'
+    match: 'message end'
+  },
+  {
+    variable: 'Ends a computation.'
+    name: 'variable.language.chromos'
+    match: 'compute end'
+  },
+  {
+    constant: 'Stops the program.'
+    name: 'constant.language.chromos'
+    match: 'prog end'
+  },
+  {
+    comment: 'Stops a line from being evaluated!'
+    name: 'comment.line.chromos'
+    match: '\\?\\?.*'
+  },
+  {
+    constant: 'Determines what happens to the data.'
+    name: 'constant.numeric.chromos'
+    match: 'plus|minus|times|by'
+  }
+
+]
