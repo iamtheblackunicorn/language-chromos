@@ -26,8 +26,8 @@ patterns: [
   },
   {
     string: 'Is a block identifier.'
-    name: 'string.single.chromos'
-    match: "\\'[0-9]+\\'"
+    name: 'string.double.chromos'
+    match: '\\"[0-9]+\\"'
   },
   {
     support: 'Holds data.'
