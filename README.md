@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="assets/banner.png"/>
+</p>
+
 # CHROMOS GRAMMAR :rainbow: :scroll:
 
 *A grammar for the Chromos language for Atom.* :rainbow: :scroll:
