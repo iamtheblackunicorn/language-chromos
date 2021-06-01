@@ -24,46 +24,36 @@ This repository contains a grammar for the Chromos language for the Atom editor.
 - 4.) If Atom is open, close it. If not, start it and write some *Chromos* code.
 - 5.) Enjoy!
 
-## Example :hammer_and_pick:
-
-### Screenshot :camera:
-
-Here's an example of what the grammar looks like in action.
-
-<p align="center">
- <img src="assets/sample.png"/>
-</p>
-
-### Code sample :computer:
+## Example :computer:
 
 ```text
 prog start
 
-  ?? This is a comment.
+  // This is a comment.
   message start => "1"
     00FF88
     0088AA
-  message end
+  message end => "1"
 
-  compute start plus => "2"
+  computePlus start => "2"
     00FF88
     0088AA
-  compute end
+  compute end => "2"
 
-  compute start minus => "3"
+  computeMinus start => "3"
     00FF88
     0088AA
-  compute end
+  compute end => "3"
 
-  compute start times => "4"
+  computeTimes start => "4"
     00FF88
     0088AA
-  compute end
+  compute end => "4"
 
-  compute start by => "5"
+  computeBy start => "5"
     00FF88
     0088AA
-  compute end
+  compute end => "5"
 
 prog end
 ```
