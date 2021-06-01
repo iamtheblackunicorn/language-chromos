@@ -12,7 +12,22 @@ patterns: [
   {
     variable: 'Initiates a computation.'
     name: 'variable.language.chromos'
-    match: 'compute start'
+    match: 'computePlus start'
+  },
+  {
+    variable: 'Initiates a computation.'
+    name: 'variable.language.chromos'
+    match: 'computeMinus start'
+  },
+  {
+    variable: 'Initiates a computation.'
+    name: 'variable.language.chromos'
+    match: 'computeTimes start'
+  },
+  {
+    variable: 'Initiates a computation.'
+    name: 'variable.language.chromos'
+    match: 'computeBy start'
   },
   {
     variable: 'Initiates a message.'
