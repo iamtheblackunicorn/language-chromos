@@ -68,11 +68,5 @@ patterns: [
     comment: 'Stops a line from being evaluated!'
     name: 'comment.line.chromos'
     match: '\\/\\/.*'
-  },
-  {
-    constant: 'Determines what happens to the data.'
-    name: 'constant.numeric.chromos'
-    match: 'plus|minus|times|by'
   }
-
 ]
