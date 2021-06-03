@@ -1,6 +1,6 @@
 {
   "name": "language-chromos",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A grammar for the Chromos language.",
   "repository": "https://github.com/iamtheblackunicorn/language-chromos",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "dependencies": {},
   "license": "MIT",
-  "bugs":"https://github.com/iamtheblackunicorn/language-chromos/issues",
+  "bugs": "https://github.com/iamtheblackunicorn/language-chromos/issues",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
