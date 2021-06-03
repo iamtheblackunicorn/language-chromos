@@ -10,7 +10,7 @@
 
 This repository contains a grammar for the Chromos language for the Atom editor. This means that when you write Chromos code, this theme will make syntax-higlighting possible inside the Atom editor. You can find out more about the Atom editor [here](https://atom.io) and the Chromos language [here](https://github.com/iamtheblackunicorn/Chromos).
 
-## Features :test_tube:
+## Features
 
 - simple, discernible colors
 - easy to use
