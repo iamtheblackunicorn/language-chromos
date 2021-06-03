@@ -59,6 +59,12 @@ prog end
 - upload to GitHub
 - polished entity names
 
+### Version 0.2.0:  Black Eagle
+
+- polished `README`
+- finalized language grammar
+- polished package
+
 ## Note :scroll:
 
 - *Chromos Grammar :rainbow: :scroll:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
