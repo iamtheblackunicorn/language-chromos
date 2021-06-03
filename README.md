@@ -54,7 +54,7 @@ prog end
 
 ## Changelog :black_nib:
 
-### Version 1.0.0: Black Bird :eagle:
+### Version 0.1.0: Black Bird
 
 - upload to GitHub
 - polished entity names
