@@ -1,6 +1,6 @@
 {
   "name": "language-chromos",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A grammar for the Chromos language.",
   "repository": "https://github.com/iamtheblackunicorn/language-chromos",
   "keywords": [
