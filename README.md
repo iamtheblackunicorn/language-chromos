@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/iamtheblackunicorn/language-chromos/raw/main/assets/banner.png"/>
+ <img src="https://github.com/iamtheblackunicorn/language-chromos/raw/master/assets/banner.png"/>
 </p>
 
 # CHROMOS GRAMMAR :rainbow: :scroll:
